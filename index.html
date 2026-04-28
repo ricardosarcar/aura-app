@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - AI Companion Journal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-mesh {
+            background-color: #f8fafc;
+            background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+                              radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+                              radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+            background-blend-mode: overlay;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Hero Section -->
+    <header class="max-w-6xl mx-auto px-6 py-20 flex flex-col items-center text-center">
+        <div class="w-20 h-20 bg-indigo-600 rounded-3xl flex items-center justify-center shadow-2xl mb-8 shadow-indigo-200">
+            <svg viewBox="0 0 24 24" width="40" height="40" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+            Aura
+        </h1>
+        <p class="text-xl text-slate-600 max-w-2xl mb-10">
+            An empathetic AI companion for mental wellness. Visualize your emotions, reframe your thoughts, and find clarity through guided journaling.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+            <div class="px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold shadow-xl flex items-center gap-3 cursor-pointer">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 15.3414C16.8966 15.3414 16.2702 15.068 15.8208 14.5212L10.3208 7.85458C9.55167 6.92125 10.2117 5.51458 11.4117 5.51458H20.735C21.935 5.51458 22.595 6.92125 21.8258 7.85458L16.3258 14.5212C16.0358 14.8746 15.6158 15.0812 15.1758 15.0812L17.523 15.3414Z"></path><path d="M3.26417 18.4854C2.06417 18.4854 1.40417 17.0787 2.17333 16.1454L7.67333 9.47875C8.12271 8.93195 8.7491 8.65863 9.3755 8.65863L11.7227 8.91905C11.1227 8.91905 10.5227 9.19245 10.0733 9.73925L4.57333 16.4059C4.28333 16.7592 3.86333 16.9659 3.42333 16.9659L3.26417 18.4854Z"></path></svg>
+                Coming soon to Play Store
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Sections -->
+    <section class="max-w-4xl mx-auto px-6 py-10 space-y-20">
+        <div id="legal" class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
+            <h2 class="text-3xl font-bold mb-8">Medical Disclaimer</h2>
+            <div class="prose text-slate-600 text-sm leading-relaxed space-y-4">
+                <p><strong>IMPORTANT:</strong> Aura is an artificial intelligence-based platform for emotional journaling and self-reflection. It is NOT a medical device and is not intended to diagnose, treat, or prevent any mental health condition.</p>
+                <p>The AI reflections are for informational purposes only and do not constitute professional psychiatric diagnosis or clinical therapy. If you are experiencing a crisis, please contact emergency services or a crisis hotline immediately.</p>
+            </div>
+
+            <hr class="my-12">
+
+            <h2 class="text-3xl font-bold mb-8">Privacy Policy</h2>
+            <div class="prose text-slate-600 text-sm leading-relaxed space-y-4">
+                <p><strong>Collection:</strong> We process your journal text and audio via Google Gemini API to provide insights. Data is sent securely to Google's servers but is handled according to enterprise privacy standards.</p>
+                <p><strong>Advertising:</strong> We use Google AdMob. AdMob may collect your device's advertising ID to show relevant ads.</p>
+                <p><strong>Storage:</strong> Your personal data is stored locally on your device unless cloud sync is enabled.</p>
+                <p><strong>Contact:</strong> For privacy inquiries, please contact your-email@example.com.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center text-slate-400 text-sm">
+        &copy; 2024 Aura App. Based in Macau.
+    </footer>
+
+</body>
+</html>
